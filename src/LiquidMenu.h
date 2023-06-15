@@ -43,6 +43,7 @@ Include file for LiquidMenu library.
 #endif
 #include <stdio.h>
 #include <stdlib.h>
+#include "Arduino.h" // TEST
 
 #include "LiquidMenu_config.h"
 #include "LiquidMenu_debug.h"

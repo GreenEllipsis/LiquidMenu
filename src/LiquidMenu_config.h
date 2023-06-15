@@ -22,12 +22,12 @@ used in the library, also configures the debugging messages.
  * @name Arduino's parallel "LiquidCrystal" library
  * @{
  */
-#ifndef LIQUIDMENU_LIBRARY
-    #define LIQUIDMENU_LIBRARY LiquidCrystal_LIBRARY ///< wrapped library ID
-#endif
-#ifndef DisplayClass
-    #define DisplayClass LiquidCrystal ///< name of wrapped library's class
-#endif
+// #ifndef LIQUIDMENU_LIBRARY
+//     #define LIQUIDMENU_LIBRARY LiquidCrystal_LIBRARY ///< wrapped library ID
+// #endif
+// #ifndef DisplayClass
+//     #define DisplayClass LiquidCrystal ///< name of wrapped library's class
+// #endif
 //!@}
 
 /*!
@@ -44,13 +44,11 @@ used in the library, also configures the debugging messages.
 //!@}
 
 /*!
- * @name Some other library
+ * @name SerLCD library
  * @{
  */
-// #include <LIBRARY_HEADER.h>
-// #ifndef DisplayClass
-// #define DisplayClass LIBRARY_CONSTRUCTOR
-// #endif
+#include <SerLCD.h>
+#define DisplayClass SerLCD
 //!@}
 //!@}
 
